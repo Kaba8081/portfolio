@@ -23,7 +23,7 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = ({
     });
 
     return (
-    <nav className=''>
+    <nav className='text-sm sm:text-base'>
         {crumbs.map((crumb, index) => (
             <span key={index}>
                 {crumb}

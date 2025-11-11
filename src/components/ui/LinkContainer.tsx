@@ -20,12 +20,12 @@ const LinkContainer: React.FC<LinkContainerProps> = ({
     const elements = Array.isArray(children) ? children : [children];
 
     return (
-        <div className='flex flex-row gap-x-2 text-xl justify-between w-full'>
+        <div className='flex flex-col gap-x-2 text-xl w-full items-center md:justify-between md:flex-row max-w-[720px] mx-auto'>
             {elements.map((element, idx) => (
                 <React.Fragment key={idx}>
                     {element}
                     {idx < elements.length - 1 && (
-                        <span className="mx-1">{separator}</span>
+                        <span className="mx-1 hidden md:block">{separator}</span>
                     )}
                 </React.Fragment>
             ))}

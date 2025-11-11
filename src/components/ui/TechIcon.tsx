@@ -10,7 +10,7 @@ const TechIcon: React.FC<TechIconProps> = ({icon, alt}: TechIconProps) => {
         <img 
             src={icon}
             alt={alt}
-            className='max-w-16 max-h-16'
+            className='tech-icon'
         />
     );
 }

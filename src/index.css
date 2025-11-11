@@ -6,7 +6,7 @@
   --color-*: initial;
 
   --text-*: initial;
-  --text-sm: 0.750rem;
+  --text-sm: 0.82rem;
   --text-base: 1rem;
   --text-xl: 1.333rem;
   --text-2xl: 1.777rem;
@@ -39,6 +39,16 @@ body {
 h1 {
   font-family: 'Cascadia Code';
   font-weight: 700;
+
+  @apply text-xl sm:text-3xl;
+}
+
+h2 {
+  @apply text-xl md:text-2xl;
+}
+
+p {
+  @apply text-base;
 }
 
 h2, h3, h4, h5 {
@@ -64,4 +74,31 @@ h2, h3, h4, h5 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  @apply gap-y-6 md:gap-y-12 w-full;
+}
+
+.icon-container {
+  @apply flex flex-wrap basis-10 gap-x-8 justify-around px-8 sm:px-0 sm:flex-row sm:justify-center sm:gap-x-6;
+}
+
+.tech-icon {
+  @apply max-w-12 max-h-12 sm:max-w-16 sm:max-h-16;
+}
+
+.project-container {
+  @apply flex flex-col gap-y-3 md:gap-y-4;
+}
+
+.project-container > .project-title-bar {
+  @apply flex flex-col sm:flex-row justify-between;
+}
+
+.project-container > .project-title-bar > .project-links{
+  @apply flex flex-row gap-x-3 text-xl sm:pt-2;
+}
+
+.project-container > p {
+  text-wrap: wrap;
+  width: 100%;
 }
