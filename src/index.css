@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Cascadia%20Code');
+@import url('https://fonts.googleapis.com/css?family=Fira%20Code');
+@import "tailwindcss";
+
+@theme {
+  --color-*: initial;
+
+  --text-*: initial;
+  --text-sm: 0.750rem;
+  --text-base: 1rem;
+  --text-xl: 1.333rem;
+  --text-2xl: 1.777rem;
+  --text-3xl: 2.369rem;
+  --text-4xl: 3.158rem;
+  --text-5xl: 4.210rem;
+
+  --color-text: #dcdbe1;
+  --color-background: #131313;
+  --color-primary: #12bf32;
+  --color-secondary: #053b0f;
+  --color-accent: #29a7fb;
+}
+
+.font-cascadia {
+  font-family: 'Cascadia Code';
+  font-weight: 700;
+}
+
+.font-fira {
+  font-family: 'Fira Code';
+  font-weight: 400;
+}
+
+body {
+  font-family: 'Fira Code';
+  font-weight: 400;
+}
+
+h1 {
+  font-family: 'Cascadia Code';
+  font-weight: 700;
+}
+
+h2, h3, h4, h5 {
+  font-family: 'Fira Code';
+  font-weight: 400;
+}
+
+:root {
+  font-family: 'Fira Code';
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--color-text);
+  background-color: var(--color-background);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
