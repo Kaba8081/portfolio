@@ -18,7 +18,26 @@
   --color-background: #131313;
   --color-primary: #12bf32;
   --color-secondary: #053b0f;
-  --color-accent: #29a7fb;
+  --color-accent: #56a7dc;
+}
+
+:root {
+  font-family: 'Fira Code';
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--color-text);
+  background-color: var(--color-background);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Fira Code';
+  font-weight: 400;
 }
 
 .font-cascadia {
@@ -27,11 +46,6 @@
 }
 
 .font-fira {
-  font-family: 'Fira Code';
-  font-weight: 400;
-}
-
-body {
   font-family: 'Fira Code';
   font-weight: 400;
 }
@@ -56,18 +70,13 @@ h2, h3, h4, h5 {
   font-weight: 400;
 }
 
-:root {
-  font-family: 'Fira Code';
-  font-weight: 400;
+a, button {
+  @apply text-accent;
+}
 
-  color-scheme: light dark;
-  color: var(--color-text);
-  background-color: var(--color-background);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+a:hover, button {
+  transition: opacity 0.2s;
+  opacity: 0.7;
 }
 
 .main-container {
@@ -83,7 +92,7 @@ h2, h3, h4, h5 {
 }
 
 .tech-icon {
-  @apply max-w-12 max-h-12 sm:max-w-16 sm:max-h-16;
+  @apply w-12 h-12 sm:w-16 sm:h-16;
 }
 
 .project-container {

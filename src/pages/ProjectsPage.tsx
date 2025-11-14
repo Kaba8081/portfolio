@@ -32,8 +32,7 @@ oraz przygotowanie API dla części frontendowej w Next.js.
             <p>
 Projekt Apex-Companion wykorzystuje pyautogui do automatycznego przechwytywania
 zrzutów ekranu z gry oraz OpenCV do analizy obrazu i identyfikacji pozycji gracza na mapie. 
-Zebrane dane są następnie przetwarzane w celu wygenerowania 
-heatmapy.
+Zebrane dane są następnie przetwarzane w celu wygenerowania heatmapy.
             </p>
         </ProjectContainer>
 
@@ -46,9 +45,9 @@ heatmapy.
             ]}
         >
             <p>
-Jest to narzędzie wiersza poleceń pozwalające na ładowanie pluginów stworzonych przez
-użytkowników. Głównym założeniem było zbioru oraz interfejsu dla skryptów do automatyzacji 
-aby nie duplikować kodu z każdym nowym narzędziem 
+Jest to narzędzie wiersza poleceń, pozwalające na ładowanie pluginów stworzonych przez
+użytkowników. Głównym założeniem było stworzenie interfejsu dla skryptów do automatyzacji
+zadań, aby nie duplikować kodu z każdym nowym narzędziem.
             </p>
         </ProjectContainer>
     </div>

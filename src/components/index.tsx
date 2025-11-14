@@ -7,6 +7,7 @@ import LinkElement from "./ui/LinkElement";
 import Breadcrumbs from "./ui/Breadcrumbs";
 import LanguageSelector from "./ui/LanguageSelector";
 import TechIcon from "./ui/TechIcon";
+import PageTransition from "./ui/PageTransition";
 
 // Projects
 import ProjectContainer from "./projects/ProjectContainer";
@@ -20,6 +21,7 @@ export {
     Breadcrumbs,
     LanguageSelector,
     TechIcon,
+    PageTransition,
 
     ProjectContainer,
 }

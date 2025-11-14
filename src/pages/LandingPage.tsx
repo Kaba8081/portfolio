@@ -29,7 +29,7 @@ const LandingPage: React.FC = () => {
             <div className='flex flex-row justify-start px-4 md:px-8'>
                 <p>
 Jestem {age} letnim studentem informatyki na Uniwersytecie Bielsko-Bialskim,<br/>
-specjalizującym się w projektach w językach Python oraz Typescript<br/>
+specjalizującym się w projektach w językach Python oraz TypeScript.<br/>
                 </p>
             </div>
         </div>

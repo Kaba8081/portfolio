@@ -13,10 +13,10 @@ const ExperiencePage: React.FC = () => {
             ]}
         >
             <p>
-Stworzyłem stronę internetową parafii ewangelickiej w Bielsku, projektując jej wygląd w Figmie
-oraz implementując backend w Django i frontend w Reactcie. Aplikacja korzysta
-z bazy danych PostgreSQL i działa w kontenerach Docker, co ułatwia wdrażanie i utrzymanie.
-Całość wykonałem samodzielnie i obecnie zajmuję się jej administracją.
+Stworzyłem stronę internetową Parafii Ewangelickiej w Bielsku, projektując jej wygląd w Figmie
+oraz implementując backend w Django i frontend w Reactcie. Projekt wykorzystuje
+bazę danych PostgreSQL i działa w kontenerach Docker, co ułatwia wdrażanie i utrzymanie.
+Całość wykonałem samodzielnie i obecnie zajmuję się administracją.
             </p>
         </ProjectContainer>
     </div>

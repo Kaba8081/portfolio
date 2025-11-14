@@ -11,7 +11,8 @@ export const router = createBrowserRouter([
     Component: Layout,
     children: [
     {
-      path: "/",
+      path: "",
+      index: true,
       element: <LandingPage />,
       handle: { name: "LandingPage.html", breadcrumbPath: ["home", "portfolio"] },
     },
@@ -34,4 +35,4 @@ export const router = createBrowserRouter([
 //       breadcrumbPath: ["home", "portfolio", "projects"],
 //     }),
 //   },
-]);
+], { basename: "/portfolio"});
