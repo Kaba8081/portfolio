@@ -1,18 +1,21 @@
 import React from 'react';
 
 interface TechIconProps {
-    icon: string;
+    icon: string | React.ReactNode;
     alt?: string;
 }
 
 const TechIcon: React.FC<TechIconProps> = ({icon, alt}: TechIconProps) => {
-    return (
-        <img 
-            src={icon}
-            alt={alt}
-            className='tech-icon'
-        />
-    );
+    if (typeof icon === 'string') {
+        return (
+            <img 
+                src={icon}
+                alt={alt}
+                className='tech-icon'
+            />
+        );
+    }
+    return <>{icon}</>;
 }
 
 export default TechIcon;

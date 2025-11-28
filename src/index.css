@@ -88,10 +88,12 @@ a:hover, button {
 }
 
 .icon-container {
-  @apply flex flex-wrap basis-10 gap-x-8 justify-around px-8 sm:px-0 sm:flex-row sm:justify-center sm:gap-x-6;
+  @apply flex flex-wrap basis-10 gap-y-8 gap-x-8 justify-around px-8 sm:px-0 sm:flex-row sm:justify-center sm:gap-x-6;
 }
 
 .tech-icon {
+  font-size: 3.5rem;
+  line-height: 1;
   @apply w-12 h-12 sm:w-16 sm:h-16;
 }
 

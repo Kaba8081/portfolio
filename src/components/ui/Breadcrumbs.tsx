@@ -30,7 +30,7 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = ({
                 {index < crumbs.length - 1 && separator}
             </span>
         ))}
-        {window.location.pathname !== '/' && (
+        {window.location.pathname !== "/portfolio" && (
         <button
             type="button"
             aria-label="Go back"

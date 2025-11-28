@@ -36,12 +36,42 @@ specjalizującym się w projektach w językach Python oraz TypeScript.<br/>
 
         {/* Icons */}
         <div className='icon-container'>
-            <TechIcon icon={PythonIcon} alt='Python icon'/>
-            <TechIcon icon={TypescriptIcon} alt='Typescript icon'/>
-            <TechIcon icon={DockerIcon} alt='Docker icon'/>
-            <TechIcon icon={PostgresqlIcon} alt='PostgreSQL icon'/>
-            <TechIcon icon={ReactIcon} alt='React.js icon'/>
-            <TechIcon icon={DjangoIcon} alt='Django icon'/>
+            <TechIcon
+              icon={
+                <i className="tech-icon devicon-python-plain"/>
+              }
+              alt='Python icon'
+            />
+            <TechIcon
+                icon={
+                    <i className="tech-icon devicon-typescript-plain"/>
+                }
+                alt="Typescript icon"
+            />
+            <TechIcon 
+              icon={
+                <i className="tech-icon devicon-docker-plain"/>
+              }
+              alt='Docker icon'
+            />
+            <TechIcon 
+              icon={
+                <i className="tech-icon devicon-postgresql-plain"/>
+              }
+              alt='PostgreSQL icon'
+            />
+            <TechIcon 
+              icon={
+                <i className="tech-icon devicon-react-original"/>
+              }
+              alt='React.JS icon'
+            />
+            <TechIcon 
+              icon={
+                <i className="tech-icon devicon-django-plain"/>
+              }
+              alt='Django icon'
+            />
         </div>
 
         {/* Links */}
