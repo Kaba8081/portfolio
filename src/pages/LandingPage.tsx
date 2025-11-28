@@ -2,14 +2,6 @@ import React from 'react';
 import { Link } from 'react-router';
 
 import { LinkContainer, TechIcon } from '../components';
-import { 
-    PythonIcon,
-    TypescriptIcon,
-    PostgresqlIcon,
-    DockerIcon,
-    ReactIcon,
-    DjangoIcon,
-} from '../assets';
 
 const LandingPage: React.FC = () => {
     let age = new Date().getTime() - new Date('04-12-2004').getTime();
