@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 
 interface ProjectContainerProps {
     title: string;
-    thumbnail?: any;
+    thumbnail?: null;
     tech_stack?: string[]; // TODO: Add badges
     links?: {name: string, href: string, new_tab?: boolean}[];
     children?: React.ReactNode;

@@ -2,14 +2,10 @@ import React from 'react';
 import type { ReactElement } from 'react';
 import { Link } from 'react-router';
 
-import LinkElement from './LinkElement';
-
 interface LinkContainerProps {
     separator?: string;
     children?: ReactElement<typeof Link> 
-        | ReactElement<typeof LinkElement> 
-        | Array<ReactElement<typeof Link> 
-        | ReactElement<typeof LinkElement>>;
+        | Array<ReactElement<typeof Link>>;
 }
 
 const LinkContainer: React.FC<LinkContainerProps> = ({
