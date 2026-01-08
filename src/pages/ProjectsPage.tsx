@@ -21,21 +21,6 @@ oraz przygotowanie API dla części frontendowej w Next.js.
             </p>
         </ProjectContainer>
 
-        {/* ApexCompanion */}
-        <ProjectContainer
-            title='Apex Companion'
-            tech_stack={["Python", "OpenCV", "pyautogui"]}
-            links={[
-                {name: "Github", href:"https://github.com/Kaba8081/ApexCompanion", new_tab: true},
-            ]}
-        >
-            <p>
-Projekt Apex-Companion wykorzystuje pyautogui do automatycznego przechwytywania
-zrzutów ekranu z gry oraz OpenCV do analizy obrazu i identyfikacji pozycji gracza na mapie. 
-Zebrane dane są następnie przetwarzane w celu wygenerowania heatmapy.
-            </p>
-        </ProjectContainer>
-
         {/* SK-AIO */}
         <ProjectContainer
             title='SK-AIO'
@@ -48,6 +33,21 @@ Zebrane dane są następnie przetwarzane w celu wygenerowania heatmapy.
 Jest to narzędzie wiersza poleceń, pozwalające na ładowanie pluginów stworzonych przez
 użytkowników. Głównym założeniem było stworzenie interfejsu dla skryptów do automatyzacji
 zadań, aby nie duplikować kodu z każdym nowym narzędziem.
+            </p>
+        </ProjectContainer>
+
+        {/* ApexCompanion */}
+        <ProjectContainer
+            title='Apex Companion'
+            tech_stack={["Python", "OpenCV", "pyautogui"]}
+            links={[
+                {name: "Github", href:"https://github.com/Kaba8081/ApexCompanion", new_tab: true},
+            ]}
+        >
+            <p>
+Projekt Apex-Companion wykorzystuje pyautogui do automatycznego przechwytywania
+zrzutów ekranu z gry oraz OpenCV do analizy obrazu i identyfikacji pozycji gracza na mapie. 
+Zebrane dane są następnie przetwarzane w celu wygenerowania heatmapy.
             </p>
         </ProjectContainer>
     </div>

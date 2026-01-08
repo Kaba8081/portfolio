@@ -58,6 +58,12 @@ specjalizującym się w projektach w językach Python oraz TypeScript.<br/>
               }
               alt='React.JS icon'
             />
+            <TechIcon
+              icon={
+                <i className="tech-icon devicon-nextjs-plain"/>
+              }
+              alt='Next.JS icon'
+            />
             <TechIcon 
               icon={
                 <i className="tech-icon devicon-django-plain"/>
